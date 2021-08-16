@@ -41,8 +41,7 @@ To deploy this project run
 - "Colors" choose desired color code or go for random colors assignation (colormap(jet()) function)
 - "SR_px = 20"; normally works fine with 20 nm but can be modified
 - "NPx_edge = 50"; This is the number of SR_px around the edge that will be considered as edge, adjust as desired
-- "nmperpx = 160" this is the original pixel size in nm (change depending
-       on microscope) 160 for 100x Nikon NSTORM, 117 for ONI microscope
+- "nmperpx = 160" this is the original pixel size in nm (change depending on microscope) 160 for 100x Nikon NSTORM, 117 for ONI microscope
 - "sigma = 1.5"; this is the Sigma value of Gaussian, adjust if desired	
 
 3. Run script
