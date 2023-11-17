@@ -6,9 +6,13 @@ These scripts can be used to calculate the percentage of localizations of a nucl
 `.bin` files (select your ROIs of interest first) 
 
 ## Output
-• % of localizations and densities at nuclear edge and nuclear interior are found in Workspace and are saved automatically as `.xlsx` file.
+• Percentage (%) of localizations and Density (locs/nm^2) at nuclear EDGE (and nuclear interior). Saved automatically as `.xlsx` file. In the Wokspace you can find additional information (std, se ...)
 
-• Two `.fig` are produced for every cell, one with the localizations of the .bin file, and one with the masks generated to define the nuclear area, the edge area, and their overlay. A third .fig is generated for the density rendering (optional).
+• Figure showing the density map of localizations, and the masks generated to define: the nuclear area, the edge area, and their overlay. 
+
+• OPTIONAL FIGURES: 
+- Figure of Black and White (BW) mask of the nuclear area.
+- Figure of the super resolved density rendering.
 
 
 
