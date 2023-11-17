@@ -13,34 +13,28 @@ These scripts can be used to calculate the percentage of localizations of a nucl
 • OPTIONAL FIGURES: 
 - Figure of Black and White (BW) mask of the nuclear area.
 - Figure of the super resolved density rendering.
-
-
-
   
 ## Composed by:
 • `edgeLocDensity_MAIN.m`: Main function. to RUN.
 
 Accessory functions:
 • `edgeLocDensity.m`: defines edge and inner areas, measures % and density of localizations, calculates errors (std, se)
-• `DensityMap.m`: 
-• `DensityForSTORMImages_EdgeAnalysis.m`: 
-• `InfoData.m`: measure extra info
+• `DensityMap.m`: resizes locs list for desired px size. Generates rendering of density map with desired smoothing factor 'sigma'
+• `DensityForSTORMImages_EdgeAnalysis.m`: same as DensityMap.m, but with specific parameters for STORM images
+• `InfoData.m`: measure extra info (Area in SR_px^2, density in Locs/SR_px^2)
 • `Insight3.m`: extract data from .bin files
 • `uipickfiles.m`: open GUI and load files
 • `InfoDataANDDens.m`: EXTRA function. Not used by the _MAIN code.
- 
-
-
   
 ## Tested
-
 Tested on Matlab_R2016b
+
 ## Authors 
 - Code by Chiara Vicario, modified by Alvaro Castells Garcia, Laura Martin, Blanca Bruschi
 - README and annotation by Victoria Neguembor and Laura Martin
+- 
 ## Deployment
-
-To deploy this project run
+To run this code:
 
 ```
 1. Open "edgeLocDensity_MAIN.m"
@@ -58,11 +52,24 @@ To deploy this project run
 
 4. Load .bin files for each category
 
-5. The script will generate 2 Figures per each file: one for the masks created for the edge area and the inner area, and one for the visualization of .bin file localizations
+5. The script will generate one Panel of figures per each file: the density map of locs, the mask of the nucleus, the mask of the edge, and the mask of nucleus with edge superimposed. OPTIONAL: generate also B/W mask figure, as Figure 2.
 
-6. The script will ask you if you want to do the density rendering. Write Y or N and press Enter. (Yes to visualise, No will skip visualisation). If Y, the density rendering will appear as a third figure 
+6. The script will ask you if you want to do the density rendering. Write Y or N and press Enter. (Yes to visualise, No will skip visualisation). If Y, the density rendering will appear as Figure 3.
 
-7. The analysis results will be saved as an .xlsx file. The first column reports the name of the file used for the analysis.
+7. The analysis results will be saved as an .xlsx file. Columns info:
+
+- the name of the file used for the analysis
+
+- Edge_Density_Average (locs/nm^2)
+- Edge_Density_Median (locs/nm^2)
+- Percentage_localizations_edge (%)
+
+- Inside_Density_Average (locs/nm^2)
+- Inside_Density_Median (locs/nm^2)
+- Percentage_localizations_Inside (%)
+
+- Full_Density_Average (locs/nm^2)
+- Full_Density_Median (locs/nm^2)
 
 ```
 
