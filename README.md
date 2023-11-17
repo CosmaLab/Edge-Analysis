@@ -39,7 +39,7 @@ Tested on Matlab_R2016a and Matlab_R2016b
 ## Authors 
 - Code by Chiara Vicario, modified by Alvaro Castells Garcia, Laura Martin, Blanca Bruschi
 - README and annotation by Victoria Neguembor and Laura Martin
-- 
+
 ## Deployment
 To run this code:
 
@@ -76,11 +76,10 @@ If Y, the density rendering will appear as Figure 3.
 
 - Full_Density_Average (locs/nm<sup>2</sup>)
 
-```
-
   
 ## Research Implementation 
-Example: Methods summary for Lamin A/C and H3K9me3 quantification at nuclear edge (from Neguembor et al Mol Cell 2021)
+### Example: 
+### Methods summary for Lamin A/C and H3K9me3 quantification at nuclear edge (from Neguembor et al Mol Cell 2021)
 
 The percentage of Lamin A/C and H3K9me3 localizations at the edge of nucleus was calculated using a custom Matlab script, according to the following procedure. First a Gaussian filtered density map of Lamin A/C and H3K9me3 STORM coordinates was generated (pixel size 20 nm, sigma 3), then an edge of 400 nm was drawn around the nuclear rim. The percentage of localization falling in this edge was calculated as the number of localizations inside the edge region divided by the total number of localizations of the nucleus.
 
