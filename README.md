@@ -70,15 +70,12 @@ If Y, the density rendering will appear as Figure 3.
 - the name of the file used for the analysis
 
 - Edge_Density_Average (locs/nm^2)
-- Edge_Density_Median (locs/nm^2)
 - Percentage_localizations_edge (%)
 
 - Inside_Density_Average (locs/nm^2)
-- Inside_Density_Median (locs/nm^2)
 - Percentage_localizations_Inside (%)
 
 - Full_Density_Average (locs/nm^2)
-- Full_Density_Median (locs/nm^2)
 
 ```
 
