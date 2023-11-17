@@ -34,7 +34,7 @@ Accessory functions:
 • `InfoDataANDDens.m`: EXTRA function. Not used by the _MAIN code.
   
 ## Tested
-Tested on Matlab_R2016b
+Tested on Matlab_R2016a and Matlab_R2016b
 
 ## Authors 
 - Code by Chiara Vicario, modified by Alvaro Castells Garcia, Laura Martin, Blanca Bruschi
