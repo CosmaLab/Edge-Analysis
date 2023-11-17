@@ -14,7 +14,7 @@ These scripts can be used to calculate the percentage of localizations of a nucl
 - Figure of Black and White (BW) mask of the nuclear area.
 - Figure of the super resolved density rendering.
   
-## Composed by:
+## Composed by
 • `edgeLocDensity_MAIN.m`: Main function. to RUN.
 
 Accessory functions:
