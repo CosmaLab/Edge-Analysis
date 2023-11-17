@@ -21,12 +21,12 @@ These scripts can be used to calculate the percentage of localizations of a nucl
 • `edgeLocDensity_MAIN.m`: Main function. to RUN.
 
 Accessory functions:
-• `edgeLocDensity.m`: 
+• `edgeLocDensity.m`: defines edge and inner areas, measures % and density of localizations, calculates errors (std, se)
 • `DensityMap.m`: 
 • `DensityForSTORMImages_EdgeAnalysis.m`: 
-• `InfoData.m`:
-• `Insight3.m`: 
-• `uipickfiles.m`: 
+• `InfoData.m`: measure extra info
+• `Insight3.m`: extract data from .bin files
+• `uipickfiles.m`: open GUI and load files
 • `InfoDataANDDens.m`: EXTRA function. Not used by the _MAIN code.
  
 
@@ -68,7 +68,8 @@ To deploy this project run
 
   
 ## Research Implementation 
-Example: Methods summary for Lamin A/C and H3K9me3 quantification at nuclear edge (from Neguembor et al Mol Cell 2021): 
+Example: Methods summary for Lamin A/C and H3K9me3 quantification at nuclear edge (from Neguembor et al Mol Cell 2021)
+
 The percentage of Lamin A/C and H3K9me3 localizations at the edge of nucleus was calculated using a custom Matlab script, according to the following procedure. First a Gaussian filtered density map of Lamin A/C and H3K9me3 STORM coordinates was generated (pixel size 20 nm, sigma 3), then an edge of 400 nm was drawn around the nuclear rim. The percentage of localization falling in this edge was calculated as the number of localizations inside the edge region divided by the total number of localizations of the nucleus.
 
   
