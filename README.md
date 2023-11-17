@@ -6,7 +6,7 @@ These scripts can be used to calculate the percentage of localizations of a nucl
 `.bin` files (select your ROIs of interest first) 
 
 ## Output
-• Percentage (%) of localizations and Density (locs/nm^2) at nuclear EDGE (and nuclear interior). Saved automatically as `.xlsx` file. In the Wokspace you can find additional information (std, se ...)
+• Percentage (%) of localizations and Density (locs/nm<sup>2</sup>) at nuclear EDGE (and nuclear interior). Saved automatically as `.xlsx` file. In the Wokspace you can find additional information (std, se ...)
 
 • Figure showing the density map of localizations, and the masks generated to define: the nuclear area, the edge area, and their overlay. 
 
@@ -25,7 +25,7 @@ Accessory functions:
 
 • `DensityForSTORMImages_EdgeAnalysis.m`: same as DensityMap.m, but with specific parameters for STORM images
 
-• `InfoData.m`: measure extra info (Area in SR_px^2, density in Locs/SR_px^2)
+• `InfoData.m`: measure extra info (Area in SR_px<sup>2</sup>, density in Locs/SR_px<sup>2</sup>)
 
 • `Insight3.m`: extract data from .bin files
 
@@ -69,13 +69,13 @@ If Y, the density rendering will appear as Figure 3.
 
 - the name of the file used for the analysis
 
-- Edge_Density_Average (locs/nm^2)
+- Edge_Density_Average (locs/nm<sup>2</sup>)
 - Percentage_localizations_edge (%)
 
-- Inside_Density_Average (locs/nm^2)
+- Inside_Density_Average (locs/nm<sup>2</sup>)
 - Percentage_localizations_Inside (%)
 
-- Full_Density_Average (locs/nm^2)
+- Full_Density_Average (locs/nm<sup>2</sup>)
 
 ```
 
