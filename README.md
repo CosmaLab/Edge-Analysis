@@ -18,12 +18,19 @@ These scripts can be used to calculate the percentage of localizations of a nucl
 • `edgeLocDensity_MAIN.m`: Main function. to RUN.
 
 Accessory functions:
+
 • `edgeLocDensity.m`: defines edge and inner areas, measures % and density of localizations, calculates errors (std, se)
+
 • `DensityMap.m`: resizes locs list for desired px size. Generates rendering of density map with desired smoothing factor 'sigma'
+
 • `DensityForSTORMImages_EdgeAnalysis.m`: same as DensityMap.m, but with specific parameters for STORM images
+
 • `InfoData.m`: measure extra info (Area in SR_px^2, density in Locs/SR_px^2)
+
 • `Insight3.m`: extract data from .bin files
+
 • `uipickfiles.m`: open GUI and load files
+
 • `InfoDataANDDens.m`: EXTRA function. Not used by the _MAIN code.
   
 ## Tested
