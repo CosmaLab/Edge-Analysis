@@ -43,7 +43,6 @@ Tested on Matlab_R2016a and Matlab_R2016b
 ## Deployment
 To run this code:
 
-```
 1. Open "edgeLocDensity_MAIN.m"
 
 2. Adjust the following parameters: 
