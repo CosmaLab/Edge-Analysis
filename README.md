@@ -52,9 +52,11 @@ To run this code:
 
 4. Load .bin files for each category
 
-5. The script will generate one Panel of figures per each file: the density map of locs, the mask of the nucleus, the mask of the edge, and the mask of nucleus with edge superimposed. OPTIONAL: generate also B/W mask figure, as Figure 2.
+5. The script will generate one Panel of figures per each file: the density map of locs, the mask of the nucleus, the mask of the edge, and the mask of nucleus with edge superimposed.
+OPTIONAL: generate also B/W mask figure, as Figure 2.
 
-6. The script will ask you if you want to do the density rendering. Write Y or N and press Enter. (Yes to visualise, No will skip visualisation). If Y, the density rendering will appear as Figure 3.
+6. The script will ask you if you want to do the density rendering. Write Y or N and press Enter. (Yes to visualise, No will skip visualisation).
+If Y, the density rendering will appear as Figure 3.
 
 7. The analysis results will be saved as an .xlsx file. Columns info:
 
