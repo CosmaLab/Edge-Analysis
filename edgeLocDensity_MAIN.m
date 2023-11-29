@@ -150,5 +150,6 @@ FULL_all_fortable.Properties.VariableNames  = {'Full_Density_locs_nm2'};
 
 Tabletosave = horzcat(datafortable2,EDGE_all_fortable,INSIDE_all_fortable,FULL_all_fortable);
 
- %%% SAVE .xlsx table with results in Folder.
+ %%% SAVE .xlsx and .txt table with results in Folder.
  writetable(Tabletosave,strcat(Folder,'\EDGE_analysis_results.xlsx'));
+ writetable(Tabletosave,strcat(Folder,'\EDGE_analysis_results.txt'),'Delimiter','tab');
